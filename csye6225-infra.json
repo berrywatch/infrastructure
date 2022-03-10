@@ -4,15 +4,22 @@
         "AWS::CloudFormation::Designer": {
             "b5a91f08-4271-4868-8183-c2bfa131dc0e": {
                 "size": {
-                    "width": 1310,
-                    "height": 530
+                    "width": 1000,
+                    "height": 470
                 },
                 "position": {
-                    "x": 260,
-                    "y": -20
+                    "x": 230,
+                    "y": 20
                 },
                 "z": 1,
                 "embeds": [
+                    "a80dec1d-ff1b-4b7d-ad71-42716ab69bae",
+                    "b6558e9a-92e1-4b87-a560-9349f8b548fc",
+                    "25c4568f-d4dd-4b8f-9664-1aa6d5a8a2b6",
+                    "79d3b995-75dd-4464-9883-6c3a69aaeeb6",
+                    "17019ffc-5f35-4411-aa70-10f971bca022",
+                    "bb58f34e-6b5d-4efe-ab49-5b4b536d4669",
+                    "b4aa1c42-5cf3-4428-949f-3ff4f5704c8b",
                     "4a8074d6-a946-4fe1-b4dc-ce524ee50e26",
                     "0e318eb8-2359-40d1-bf63-2189061e5b50",
                     "1c836168-81bd-4aa1-8cc6-2807c4a8830b",
@@ -22,12 +29,12 @@
             },
             "9bf721b0-778b-464d-aee4-c07e40274c1a": {
                 "size": {
-                    "width": 300,
-                    "height": 210
+                    "width": 250,
+                    "height": 170
                 },
                 "position": {
-                    "x": 440,
-                    "y": 40
+                    "x": 300,
+                    "y": 70
                 },
                 "z": 2,
                 "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -35,6 +42,17 @@
                     "9da18894-5cb7-40c9-98bc-b44c47beefc2"
                 ],
                 "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -69,7 +87,7 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 30,
+                    "x": 160,
                     "y": 150
                 },
                 "z": 1,
@@ -77,12 +95,12 @@
             },
             "14b8ab00-a526-4e02-bd8c-0da46c63a10f": {
                 "size": {
-                    "width": 360,
-                    "height": 300
+                    "width": 230,
+                    "height": 180
                 },
                 "position": {
-                    "x": 860,
-                    "y": 40
+                    "x": 590,
+                    "y": 70
                 },
                 "z": 2,
                 "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -101,8 +119,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 980,
-                    "y": 100
+                    "x": 710,
+                    "y": 130
                 },
                 "z": 3,
                 "parent": "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
@@ -111,6 +129,17 @@
                     "cb976b2f-9aa0-4064-9200-e69d82fbb07f"
                 ],
                 "iscontainedinside": [
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
+                    "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
                     "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
                     "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
                     "14b8ab00-a526-4e02-bd8c-0da46c63a10f",
@@ -155,13 +184,24 @@
                     "height": 90
                 },
                 "position": {
-                    "x": 1250,
-                    "y": 40
+                    "x": 910,
+                    "y": 60
                 },
                 "z": 2,
                 "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -188,13 +228,24 @@
                     "height": 90
                 },
                 "position": {
-                    "x": 1400,
-                    "y": 40
+                    "x": 1070,
+                    "y": 60
                 },
                 "z": 2,
                 "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -221,13 +272,24 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 580,
-                    "y": 350
+                    "x": 320,
+                    "y": 320
                 },
                 "z": 2,
                 "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
                     "b5a91f08-4271-4868-8183-c2bfa131dc0e",
@@ -249,8 +311,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 530,
-                    "y": 70
+                    "x": 390,
+                    "y": 100
                 },
                 "z": 3,
                 "parent": "9bf721b0-778b-464d-aee4-c07e40274c1a",
@@ -265,10 +327,181 @@
                     "9bf721b0-778b-464d-aee4-c07e40274c1a",
                     "9bf721b0-778b-464d-aee4-c07e40274c1a",
                     "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
+                    "9bf721b0-778b-464d-aee4-c07e40274c1a",
                     "9bf721b0-778b-464d-aee4-c07e40274c1a"
                 ],
                 "dependson": [
                     "a6087128-d3e9-48ac-8567-9659b0e1e931"
+                ]
+            },
+            "bb58f34e-6b5d-4efe-ab49-5b4b536d4669": {
+                "size": {
+                    "width": 140,
+                    "height": 100
+                },
+                "position": {
+                    "x": 580,
+                    "y": 300
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": [
+                    "a814cc2c-e628-4c4f-86a9-a46c809a61ca"
+                ],
+                "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e"
+                ]
+            },
+            "17019ffc-5f35-4411-aa70-10f971bca022": {
+                "size": {
+                    "width": 100,
+                    "height": 80
+                },
+                "position": {
+                    "x": 900,
+                    "y": 190
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": [],
+                "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e"
+                ]
+            },
+            "79d3b995-75dd-4464-9883-6c3a69aaeeb6": {
+                "size": {
+                    "width": 100,
+                    "height": 80
+                },
+                "position": {
+                    "x": 1060,
+                    "y": 190
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": [],
+                "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e"
+                ]
+            },
+            "b4aa1c42-5cf3-4428-949f-3ff4f5704c8b": {
+                "size": {
+                    "width": 100,
+                    "height": 100
+                },
+                "position": {
+                    "x": 760,
+                    "y": 300
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": [],
+                "dependson": [
+                    "bb58f34e-6b5d-4efe-ab49-5b4b536d4669",
+                    "17019ffc-5f35-4411-aa70-10f971bca022",
+                    "79d3b995-75dd-4464-9883-6c3a69aaeeb6"
+                ]
+            },
+            "25c4568f-d4dd-4b8f-9664-1aa6d5a8a2b6": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 440,
+                    "y": 370
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": [],
+                "iscontainedinside": [
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                    "b5a91f08-4271-4868-8183-c2bfa131dc0e"
+                ]
+            },
+            "b6558e9a-92e1-4b87-a560-9349f8b548fc": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1140,
+                    "y": 400
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": []
+            },
+            "a80dec1d-ff1b-4b7d-ad71-42716ab69bae": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1060,
+                    "y": 400
+                },
+                "z": 2,
+                "parent": "b5a91f08-4271-4868-8183-c2bfa131dc0e",
+                "embeds": []
+            },
+            "a814cc2c-e628-4c4f-86a9-a46c809a61ca": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 610,
+                    "y": 320
+                },
+                "z": 3,
+                "parent": "bb58f34e-6b5d-4efe-ab49-5b4b536d4669",
+                "embeds": [],
+                "isassociatedwith": [
+                    "a80dec1d-ff1b-4b7d-ad71-42716ab69bae",
+                    "25c4568f-d4dd-4b8f-9664-1aa6d5a8a2b6"
                 ]
             }
         }
@@ -403,6 +636,39 @@
                 }
             }
         },
+        "myPublicRouteTableAssociation4": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "RouteTableDBS"
+                },
+                "SubnetId": {
+                    "Ref": "Subnet4"
+                }
+            }
+        },
+        "myPublicRouteTableAssociation5": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "RouteTableDBS"
+                },
+                "SubnetId": {
+                    "Ref": "Subnet5"
+                }
+            }
+        },
+        "myPublicRouteTableAssociation6": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "RouteTableDBS"
+                },
+                "SubnetId": {
+                    "Ref": "Subnet6"
+                }
+            }
+        },
         "Subnet2": {
             "Type": "AWS::EC2::Subnet",
             "Properties": {
@@ -448,8 +714,7 @@
                     "Ref": "VPC"
                 },
                 "GroupDescription": "Allow access from HTTP and SSH traffic",
-                "SecurityGroupIngress": [
-                    {
+                "SecurityGroupIngress": [{
                         "IpProtocol": "tcp",
                         "FromPort": 80,
                         "ToPort": 80,
@@ -481,6 +746,95 @@
                 }
             }
         },
+        "Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Ref": "BucketName"
+                },
+                "BucketEncryption": {
+                    "ServerSideEncryptionConfiguration": [{
+                        "ServerSideEncryptionByDefault": {
+                            "SSEAlgorithm": "AES256"
+                        }
+                    }]
+                },
+                "LifecycleConfiguration": {
+                    "Rules": [
+                        {
+                            "Id": "GlacierRule",
+                            "Prefix": "",
+                            "Status": "Enabled",
+                            "Transitions": [
+                                {
+                                    "TransitionInDays": 30,
+                                    "StorageClass": "STANDARD_IA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b6558e9a-92e1-4b87-a560-9349f8b548fc"
+                }
+            }
+        },
+        "S3Role": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [{
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": [
+                                "ec2.amazonaws.com"
+                            ]
+                        },
+                        "Action": [
+                            "sts:AssumeRole"
+                        ]
+                    }]
+                },
+                "Path": "/",
+                "Policies": [{
+                    "PolicyName": "root",
+                    "PolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [{
+                            "Effect": "Allow",
+                            "Action": "*",
+                            "Resource": [{
+                                    "Fn::Sub": ["arn:aws:s3:::${BUCKET_NAME}", {
+                                        "BUCKET_NAME": {
+                                            "Ref": "BucketName"
+                                        }
+                                    }]
+                                },
+                                {
+                                    "Fn::Sub": ["arn:aws:s3:::${BUCKET_NAME}/*", {
+                                        "BUCKET_NAME": {
+                                            "Ref": "BucketName"
+                                        }
+                                    }]
+                                }
+                            ]
+                        }]
+                    }
+                }]
+            }
+        },
+        "InstanceProfile": {
+            "Type": "AWS::IAM::InstanceProfile",
+            "Properties": {
+                "InstanceProfileName": "WebAppS3",
+                "Roles": [{
+                    "Ref": "S3Role"
+                }]
+            }
+        },
         "WebServerInstance": {
             "Type": "AWS::EC2::Instance",
             "Properties": {
@@ -493,38 +847,66 @@
                 "KeyName": {
                     "Ref": "KeyName"
                 },
-                "NetworkInterfaces": [
-                    {
-                        "GroupSet": [
-                            {
-                                "Ref": "WebServerSecurityGroup"
-                            }
-                        ],
-                        "AssociatePublicIpAddress": "true",
-                        "DeviceIndex": "0",
-                        "DeleteOnTermination": "true",
-                        "SubnetId": {
-                            "Ref": "Subnet1"
-                        }
+                "IamInstanceProfile": {
+                    "Ref": "InstanceProfile"
+                },
+                "NetworkInterfaces": [{
+                    "GroupSet": [{
+                        "Ref": "WebServerSecurityGroup"
+                    }],
+                    "AssociatePublicIpAddress": "true",
+                    "DeviceIndex": "0",
+                    "DeleteOnTermination": "true",
+                    "SubnetId": {
+                        "Ref": "Subnet1"
                     }
-                ],
-                "BlockDeviceMappings" : [
-                    {
-                       "DeviceName" : "/dev/sdm",
-                       "Ebs" : {
-                         "VolumeType" : "gp2",
-                         "DeleteOnTermination" : "true",
-                         "VolumeSize" : "20"
-                       }
-                     }
-                 ],
-                 "UserData": {
+                }],
+                "BlockDeviceMappings": [{
+                    "DeviceName": "/dev/sdm",
+                    "Ebs": {
+                        "VolumeType": "gp2",
+                        "DeleteOnTermination": "true",
+                        "VolumeSize": "20"
+                    }
+                }],
+                "UserData": {
                     "Fn::Base64": {
                         "Fn::Join": [
                             "",
                             [
                                 "#!/bin/bash -xe\n",
                                 "yum install -y aws-cfn-bootstrap\n",
+                                "yum install -y mariadb\n",
+                                "cd /home/ec2-user/project/webservice\n",
+                              
+                                "echo spring.jpa.hibernate.ddl-auto=update >> application.properties\n",
+                                "echo spring.datasource.url=jdbc:mysql://", {
+                                    "Fn::GetAtt": ["RDSInstance", "Endpoint.Address"]
+                                },
+                                "/csye6225 >> application.properties\n",
+                                "echo spring.datasource.username=", {
+                                    "Ref": "DBUsername"
+                                }, ">> application.properties\n",
+                                "echo spring.datasource.password=", {
+                                    "Ref": "DBPassword"
+                                }, ">> application.properties\n",
+                                "echo spring.datasource.driver-class-name =com.mysql.cj.jdbc.Driver >> application.properties\n",
+                                "echo ",
+                                {
+                                    "Fn::Sub": ["bucketName=${name}", {
+                                        "name": {
+                                            "Ref": "BucketName"
+                                        }
+                                    }]
+                                },
+                                " >> application.properties\n",
+                                "echo webWorkDir=$PWD/ >> application.properties\n",
+                                
+                                "mv application.properties ./src/main/resources/\n",
+                                "export M2_HOME=/usr/local/apache-maven && export M2=$M2_HOME/bin && export PATH=$M2:$PATH\n",
+                                "mvn clean package\n",
+                                "sudo chmod +x ./target/Registration-0.0.1-SNAPSHOT.jar\n",
+                                "sudo mv template/registration.service /etc/systemd/system\n",
                                 "# Install the files and packages from the metadata\n",
                                 "/opt/aws/bin/cfn-init -v ",
                                 "         --stack ",
@@ -559,29 +941,197 @@
                 "AWS::CloudFormation::Designer": {
                     "id": "9da18894-5cb7-40c9-98bc-b44c47beefc2"
                 },
-                "AWS::CloudFormation::Init" : {
-                    "configSets" : {
+                "AWS::CloudFormation::Init": {
+                    "configSets": {
                         "All": [
                             "ConfigureSampleApp"
                         ]
                     },
                     "ConfigureSampleApp": {
-                        "services":{
-                            "systemd":{
-                                "registration":{
+                        "services": {
+                            "systemd": {
+                                "registration": {
                                     "enabled": "true",
                                     "ensureRunning": "true"
                                 }
                             }
                         }
                     }
-                    
-                    
-                }     
+                }
             },
             "DependsOn": [
                 "PublicRoute"
             ]
+        },
+        "Subnet4": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                },
+                "CidrBlock": {
+                    "Ref": "Subnet4CIDR"
+                },
+                "AvailabilityZone": {
+                    "Ref": "Subnet4Zone"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "bb58f34e-6b5d-4efe-ab49-5b4b536d4669"
+                }
+            }
+        },
+        "Subnet5": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                },
+                "CidrBlock": {
+                    "Ref": "Subnet5CIDR"
+                },
+                "AvailabilityZone": {
+                    "Ref": "Subnet5Zone"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "17019ffc-5f35-4411-aa70-10f971bca022"
+                }
+            }
+        },
+        "Subnet6": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                },
+                "CidrBlock": {
+                    "Ref": "Subnet6CIDR"
+                },
+                "AvailabilityZone": {
+                    "Ref": "Subnet6Zone"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "79d3b995-75dd-4464-9883-6c3a69aaeeb6"
+                }
+            }
+        },
+        "RouteTableDBS": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b4aa1c42-5cf3-4428-949f-3ff4f5704c8b"
+                }
+            },
+            "DependsOn": [
+                "Subnet4",
+                "Subnet5",
+                "Subnet6"
+            ]
+        },
+        "DBSSecurityGroup": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VPC"
+                },
+                "GroupDescription": "Allow access from Web Security Group to Database",
+                "SecurityGroupIngress": [{
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "CidrIp": {
+                        "Ref":"Subnet1CIDR"
+                    }
+                }]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "25c4568f-d4dd-4b8f-9664-1aa6d5a8a2b6"
+                }
+            }
+        },
+        "RDSParameterGroup": {
+            "Type": "AWS::RDS::DBParameterGroup",
+            "Properties": {
+                "Description": "RDS parameter group",
+                "Family": "mysql8.0"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a80dec1d-ff1b-4b7d-ad71-42716ab69bae"
+                }
+            }
+        },
+        "DBSubnetGroup": {
+            "Type": "AWS::RDS::DBSubnetGroup",
+            "Properties": {
+                "DBSubnetGroupDescription": "DB subnet group",
+                "DBSubnetGroupName": {
+                    "Fn::Join": ["", ["DBSubnetGroup", {
+                        "Ref": "AWS::StackName"
+                    }]]
+                },
+                "SubnetIds": [{
+                        "Ref": "Subnet4"
+                    },
+                    {
+                        "Ref": "Subnet5"
+                    },
+                    {
+                        "Ref": "Subnet6"
+                    }
+                ]
+            }
+        },
+        "RDSInstance": {
+            "Type": "AWS::RDS::DBInstance",
+            "Properties": {
+                "DBName": "csye6225",
+                "Engine": "mysql",
+                "MultiAZ": false,
+                "AllocatedStorage": 20,
+                "DBInstanceClass": "db.t3.micro",
+                "DBInstanceIdentifier": "csye6225",
+                "DBParameterGroupName": {
+                    "Ref": "RDSParameterGroup"
+                },
+                "DBSubnetGroupName": {
+                    "Ref": "DBSubnetGroup"
+                },
+                "MasterUsername": {
+                    "Ref": "DBUsername"
+                },
+                "MasterUserPassword": {
+                    "Ref": "DBPassword"
+                },
+                "PubliclyAccessible": false,
+                "VPCSecurityGroups": [{
+                    "Ref": "DBSSecurityGroup"
+                }]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a814cc2c-e628-4c4f-86a9-a46c809a61ca"
+                }
+            }
+        }
+    },
+    "Mappings": {
+        "AccountMap": {
+            "Account": {
+                "270484512737": "dev",
+                "269494922587": "prod"
+            }
         }
     },
     "Parameters": {
@@ -615,6 +1165,36 @@
             "Type": "String",
             "Default": "10.0.2.0/24"
         },
+        "Subnet4Zone": {
+            "Description": "Subnet4 zone",
+            "Type": "String",
+            "Default": "us-east-1d"
+        },
+        "Subnet4CIDR": {
+            "Description": "Subnet4 CIDR",
+            "Type": "String",
+            "Default": "10.0.10.0/24"
+        },
+        "Subnet5Zone": {
+            "Description": "Subnet5 zone",
+            "Type": "String",
+            "Default": "us-east-1e"
+        },
+        "Subnet5CIDR": {
+            "Description": "Subnet5 CIDR",
+            "Type": "String",
+            "Default": "10.0.11.0/24"
+        },
+        "Subnet6Zone": {
+            "Description": "Subnet6 zone",
+            "Type": "String",
+            "Default": "us-east-1f"
+        },
+        "Subnet6CIDR": {
+            "Description": "Subnet6 CIDR",
+            "Type": "String",
+            "Default": "10.0.12.0/24"
+        },
         "ImageId": {
             "Description": "AMI ID",
             "Type": "String"
@@ -628,6 +1208,26 @@
             "Description": "Name of an EC2 KeyPair to enable SSH access to the instance.",
             "Type": "AWS::EC2::KeyPair::KeyName",
             "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
+        },
+        "BucketName": {
+            "Description": "Bucket name.",
+            "Type": "String",
+            "Default": "xvaefsd.dev.kanzhang.me"
+        },
+        "DomainName": {
+            "Description": "Domain name of your personal use.",
+            "Type": "String",
+            "Default": "kanzhang.me"
+        },
+        "DBUsername": {
+            "Description": "DB username for mysql.",
+            "Type": "String",
+            "Default": "csye6225"
+        },
+        "DBPassword": {
+            "Description": "DB password for mysql.",
+            "Type": "String",
+            "Default": "zk111111"
         },
         "SSHLocation": {
             "Description": " The IP address range that can be used to access the web server using SSH.",
