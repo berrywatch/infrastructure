@@ -1,0 +1,1 @@
+aws cloudformation validate-template --template-body file://~/Temp/infrastructure/csye6225-infra.json
