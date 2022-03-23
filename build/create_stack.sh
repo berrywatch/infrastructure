@@ -1,4 +1,4 @@
 #!/bin/sh
-aws cloudformation create-stack --profile=dev --stack-name BasicWeb --template-body file://~/Temp/infrastructure/csye6225-infra.json \
- --parameters ParameterKey=KeyName,ParameterValue=crypto ParameterKey=ImageId,ParameterValue=ami-0cf0e3de90b238bcb \
- ParameterKey=BucketName,ParameterValue=xvaefsd.dev.kanzhang.me --capabilities CAPABILITY_NAMED_IAM
+aws cloudformation create-stack --profile=demo --stack-name BasicWeb --template-body file://~/Temp/infrastructure/csye6225-infra.yaml \
+ --parameters ParameterKey=KeyName,ParameterValue=crypto ParameterKey=ImageId,ParameterValue=ami-05c9d591a059610f6 \
+ ParameterKey=EnvName,ParameterValue=prod --capabilities CAPABILITY_NAMED_IAM
