@@ -1,0 +1,1 @@
+aws cloudformation delete-stack --profile=demo --stack-name BasicRole
