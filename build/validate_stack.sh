@@ -1,1 +1,1 @@
-aws cloudformation validate-template --template-body file://~/Temp/infrastructure/csye6225-infra.yaml
+aws cloudformation validate-template --template-body --profile=dev file://~/Temp/infrastructure/csye6225-infra.yaml
