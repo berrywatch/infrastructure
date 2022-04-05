@@ -547,6 +547,14 @@ Resources:
           FromPort: 8080
           ToPort: 8080
           SourceSecurityGroupId: !Ref LoadBalancerSecurityGroup
+        # - IpProtocol: tcp
+        #   FromPort: 8080
+        #   ToPort: 8080
+        #   CidrIp: 0.0.0.0/0
+        # - IpProtocol: tcp
+        #   FromPort: 22
+        #   ToPort: 22
+        #   CidrIp: 0.0.0.0/0
 
     Metadata:
       'AWS::CloudFormation::Designer':
@@ -589,8 +597,9 @@ Resources:
     Metadata:
       'AWS::CloudFormation::Designer':
         id: b6558e9a-92e1-4b87-a560-9349f8b548fc
-  S3Role:
+  InstanceRole:
     Type: 'AWS::IAM::Role'
+    Description: 'Allow ec2 instance talk to s3 bucket and use cloud watch agent'
     Properties:
       AssumeRolePolicyDocument:
         Version: 2012-10-17
@@ -619,13 +628,15 @@ Resources:
                   - !Sub arn:aws:s3:::${Bucket}/*
                   - !Sub arn:aws:s3:::${WebSourceBucket}
                   - !Sub arn:aws:s3:::${WebSourceBucket}/*
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
      
   InstanceProfile:
     Type: 'AWS::IAM::InstanceProfile'
     Properties:
       InstanceProfileName: !Sub ${AWS::StackName}-WebAppS3-profile
       Roles:
-        - !Ref S3Role
+        - !Ref InstanceRole
 
   # WebServerInstance:
   #   Type: 'AWS::EC2::Instance'
@@ -650,6 +661,8 @@ Resources:
   #     Tags:
   #       - Key: Label
   #         Value: codedeploy
+  #       - Key: cloudwatch
+  #         Value: ''
   #     UserData: 
   #       Fn::Base64: 
   #         Fn::Join: ["", [
@@ -663,24 +676,15 @@ Resources:
   #           "echo spring.datasource.password=",!Ref DBPassword,">> application.properties\n",
   #           "echo spring.datasource.driver-class-name =com.mysql.cj.jdbc.Driver >> application.properties\n",
   #           !Sub "echo bucketName=${Bucket}>> application.properties\n",
-  #           "echo webWorkDir=$PWD/ >> application.properties\n"
+  #           "echo webWorkDir=$PWD/ >> application.properties\n",
+  #           "echo logging.level.root=INFO >> application.properties\n",
+  #           "echo logging.level.org.springframework.web=ERROR >> application.properties\n",
+  #           "echo logging.level.org.hibernate=ERROR >> application.properties\n",
+  #           "echo logging.file.name=/var/log/csye6225.log >> application.properties\n",
+  #           "echo logging.pattern.file= '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n' >> application.properties\n"
   #           ]]  
-            
-    Metadata:
-      'AWS::CloudFormation::Designer':
-        id: 9da18894-5cb7-40c9-98bc-b44c47beefc2
-      'AWS::CloudFormation::Init':
-        configSets:
-          All:
-            - ConfigureSampleApp
-        ConfigureSampleApp:
-          services:
-            systemd:
-              registration:
-                enabled: 'true'
-                ensureRunning: 'true'
-    DependsOn:
-      - PublicRoute
+  #   DependsOn:
+  #     - PublicRoute
   Subnet4:
     Type: 'AWS::EC2::Subnet'
     Properties:
@@ -823,20 +827,13 @@ Resources:
               "echo spring.datasource.password=",!Ref DBPassword,">> application.properties\n",
               "echo spring.datasource.driver-class-name =com.mysql.cj.jdbc.Driver >> application.properties\n",
               !Sub "echo bucketName=${Bucket}>> application.properties\n",
-              "echo webWorkDir=$PWD/ >> application.properties\n"
+              "echo webWorkDir=$PWD/ >> application.properties\n",
+              "echo logging.level.root=INFO >> application.properties\n",
+              "echo logging.level.org.springframework.web=ERROR >> application.properties\n",
+              "echo logging.level.org.hibernate=ERROR >> application.properties\n",
+              "echo logging.file.name=/var/log/csye6225.log >> application.properties\n",
+              "echo logging.pattern.file= '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n' >> application.properties\n"
               ]]  
-
-    Metadata:
-      'AWS::CloudFormation::Init':
-        configSets:
-          All:
-            - ConfigureSampleApp
-        ConfigureSampleApp:
-          services:
-            systemd:
-              registration:
-                enabled: 'true'
-                ensureRunning: 'true'
   AutoScalingGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
     Properties:
@@ -1025,6 +1022,7 @@ Resources:
         - Key: Label
           Value: codedeploy
           Type: KEY_AND_VALUE
+       
 Mappings:
   AccountMap:
     Account:
