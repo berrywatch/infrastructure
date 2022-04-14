@@ -1,1 +1,1 @@
-aws cloudformation validate-template --template-body --profile=dev file://~/Temp/infrastructure/IAMrole.yaml
+aws cloudformation validate-template --template-body --profile=dev file://./IAMrole.yaml
